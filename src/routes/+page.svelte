@@ -5,6 +5,8 @@
 
 <Container>
   <h1>Pro Dictionary</h1>
-  <img src="https://kit.svelte.dev/_app/immutable/assets/svelte-kit-machine.BDHNYkkI.avif" alt=""/>
+  <div class="flex h-full w-full justify-center items-center py-4">
+    
+  </div>
 </Container>
 

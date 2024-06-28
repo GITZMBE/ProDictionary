@@ -4,8 +4,10 @@
 	import Sidebar from '../components/Sidebar.svelte';
 </script>
 
-<Header />
-<div class="flex">
-  <Sidebar />
-  <slot />
+<div class="w-full h-screen">
+  <Header />
+  <div class="flex h-full bg-primaryBlue">
+    <Sidebar />
+    <slot />
+  </div>
 </div>
