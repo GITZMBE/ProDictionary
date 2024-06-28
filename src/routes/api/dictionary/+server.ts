@@ -10,7 +10,7 @@ export const GET = async ({ url }: RequestEvent) => {
   });
 
   if (!res.ok) {
-    return new Response('Failed to fetch definitions', { status: res.status });
+    return new Response('Definition not found', { status: res.status });
   }
 
   const definitions = await res.json();
