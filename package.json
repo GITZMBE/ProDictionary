@@ -45,6 +45,7 @@
 	"type": "module",
 	"dependencies": {
 		"@iconify-icons/ic": "^1.2.13",
-		"@iconify/iconify": "^3.1.1"
+		"@iconify/iconify": "^3.1.1",
+		"date-fns": "^3.6.0"
 	}
 }

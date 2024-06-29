@@ -3,7 +3,6 @@
 	import Definition from "../../../components/Definition.svelte";
 
   export let data;
-  console.log(data)
 </script>
 
 <Container>

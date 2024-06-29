@@ -3,3 +3,47 @@
 @tailwind utilities;
 
 
+@layer utilities {
+  /* WebKit-based browsers */
+  *::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #192930;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply bg-primary;
+  }
+
+  *::-webkit-scrollbar-corner {
+    @apply bg-primary;
+  }
+
+  *::-webkit-scrollbar-thumb:active {
+    @apply bg-light;
+  }
+
+  /* For more precise control in Firefox */
+  *::-moz-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  *::-moz-scrollbar-thumb {
+    background-color: #192930;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+
+  *::-moz-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+}
