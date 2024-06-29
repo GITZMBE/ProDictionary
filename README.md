@@ -1,38 +1,52 @@
-# create-svelte
+# ProDictionary
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+ProDictionary is a website that allows users to look up definitions of different words.
 
-## Creating a project
+## Table of Contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [ProDictionary](#prodictionary)
+  - [Library](#library)
+  - [APIs](#apis)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Examples](#examples)
+  - [Troubleshooting](#troubleshooting)
+  - [Contact](#contact)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Library
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+The project is written in Svelte.
 
-## Developing
+## APIs
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- [Dictionary API](https://api.dictionaryapi.dev)
+- [Urban Dictionary API](http://api.urbandictionary.com)
 
-```bash
-npm run dev
+## Installation
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+To get started with ProDictionary, follow these steps:
 
-## Building
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/ProDictionary.git
+   cd ProDictionary
+   npm install
+   npm run dev
 
-To create a production version of your app:
+2. **Install dependencies**:
+  ```bash
+  npm install
+  ```
 
-```bash
-npm run build
-```
+3. **Run project**:
+  ```bash
+  npm run dev
+  ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Features
+- Look up definitions from multiple sources
+- User-friendly interface
+- Real-time search suggestions
