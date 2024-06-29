@@ -1,6 +1,5 @@
 import type { RequestEvent } from "./$types";
 
-
 export const GET = async ({ url }: RequestEvent) => {
   const base = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
   const query = url.searchParams.get('query') || '';
