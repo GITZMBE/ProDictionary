@@ -6,7 +6,6 @@
   console.log(data)
 </script>
 
-
 <Container>
   {#if data?.definitions}
     {#each data.definitions || [] as definition, i}
@@ -17,7 +16,7 @@
     {/each}
   {:else}
     <div class="w-full h-full flex justify-center items-center">
-      <h1 class="text-6xl">No Definition for "{ data.query }" found</h1>
+      <h1 class="text-6xl text-center">No Definition for "{ data.query }" found</h1>
     </div>
   {/if}
 </Container>

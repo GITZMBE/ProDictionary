@@ -26,7 +26,7 @@
     <h2 class="text-tertiary font-semibold">{ meaning.partOfSpeech }</h2>
     <p>
       {#each meaning.definitions as def}
-        <span>{ def.definition }</span>
+        <span>{ def.definition } </span>
       {/each}
     </p>
     <hr class="border-secondary">
