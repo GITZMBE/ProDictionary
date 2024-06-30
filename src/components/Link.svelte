@@ -10,6 +10,6 @@
   };
 </script>
 
-<a href={ href } on:click={closeSidebar} class="py-2 px-4 text-nowrap hover:bg-tertiary">
+<a href={ href } on:click={closeSidebar} class="w-full min-w-fit py-2 px-4 text-nowrap hover:bg-tertiary">
   <slot />
 </a>

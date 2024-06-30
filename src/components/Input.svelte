@@ -71,14 +71,14 @@
   };
 </script>
 
-<div class="w-full flex flex-col justify-center items-center gap-2">
-  <div class="w-full max-w-[50%] flex justify-center items-center">
+<div class="relative w-full flex flex-col justify-center items-center gap-2">
+  <div class="w-full sm:max-w-[80%] md:max-w-[50%] flex justify-center items-center">
     <input type="text" bind:this={inputElement} value={inputValue} on:input={handleInputChange} on:keypress={handleKeyPress} class="relative w-full text-primary rounded-l-full outline-none px-2 py-1">
     <a href={`/dictionary/${inputValue.trim().replace(' ', '_')}`} class="w-6 py-1 px-2">
       <Icon icon='tdesign:search' class='text-accent hover:text-light' />
     </a>
   </div>
-  <div class="{inputValue.trim() !== '' && result.length > 0 ? 'block' : 'hidden'} w-full max-w-[50%] max-h-[30vh] rounded-b-lg overflow-y-auto p-2 shadow-secondary shadow-lg">
+  <div class="absolute top-10 {inputValue.trim() !== '' && result.length > 0 ? 'block' : 'hidden'} w-full sm:max-w-[80%] md:max-w-[50%] max-h-[30vh] rounded-b-lg overflow-y-auto p-2 shadow-secondary shadow-lg">
     {#if inputValue.trim() !== '' && result.length > 0}
       {#each result as r}
         <a href={`/dictionary/${r.word ? r.word.trim().replace(' ', '_') : ''}`} class="flex flex-col">
