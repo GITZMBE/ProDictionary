@@ -10,6 +10,6 @@
   });
 </script>
 
-<div class="w-full h-full flex flex-col flex-grow bg-primary text-accent pt-4 pb-12 px-4 sm:px-8 md:px-12 max-h-[88vh] overflow-y-auto" bind:this={container}>
+<div class="w-full h-full flex flex-col flex-grow bg-primary text-accent pt-8 pb-12 px-4 sm:px-8 md:px-12 max-h-[88vh] overflow-y-auto" bind:this={container}>
   <slot />
 </div>

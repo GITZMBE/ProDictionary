@@ -14,6 +14,7 @@
         <hr class="border-secondary mb-12">
       {/if}
     {/each}
+    <a href="/dictionary" class="text-center text-secondary hover:text-accent pt-8 transition duration-300">Find more definitions</a>
   {:else}
     <div class="w-full h-full flex justify-center items-center">
       <h1 class="text-6xl text-center">No Definition for "{ displayQuery(data.query) }" found</h1>

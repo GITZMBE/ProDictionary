@@ -6,7 +6,7 @@
 </script>
 
 <Container>
-  <div class="flex flex-col w-full h-fit { data.data.length <= 0 && 'justify-center h-full' } items-center gap-8 py-4">
+  <div class="flex flex-col w-full h-fit { data.data.length <= 0 && 'justify-center h-full' } items-center gap-8">
     <h1 class="text-6xl font-semibold">
       <a href="/dictionary">
         <span class="text-secondary">Pro</span>Dictionary
@@ -27,7 +27,7 @@
         <hr class="border-secondary">
       {/if}
     </div>
-    <a href="/dictionary" class="text-secondary hover:text-accent transition duration-300">Find more definitions</a>
+    <a href="/dictionary" class="text-center text-secondary hover:text-accent transition duration-300">Find more definitions</a>
   </div>
 </Container>
 
