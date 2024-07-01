@@ -1,6 +1,6 @@
 # ProDictionary
 
-ProDictionary is a website that allows users to look up definitions of different words.
+ProDictionary is a website that allows users to look up definitions of different words and concepts.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ ProDictionary is a website that allows users to look up definitions of different
 
 ## Library
 
-The project is written in Svelte.
+The project is written in Svelte and uses vite for better performance.
 
 ## APIs
 
