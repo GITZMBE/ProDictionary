@@ -7,7 +7,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"predeploy": "npm run build",
-		"deploy": "npm run build && npx gh-pages -d .svelte-kit/output/client && npx gh-pages -d .svelte-kit/output/server",
+		"deploy": "npm run build && npx gh-pages -d build",
 		"gh-pages": "npm run build && npx gh-pages -d build",
 		"test": "npm run test:integration && npm run test:unit",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
