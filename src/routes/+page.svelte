@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
 	import Definition from "../components/Definition.svelte";
 	import Container from "../components/Container.svelte";
 
@@ -8,7 +9,7 @@
 <Container>
   <div class="flex flex-col w-full h-fit { data.data.length <= 0 && 'justify-center h-full' } items-center gap-8">
     <h1 class="text-6xl font-semibold">
-      <a href="/dictionary">
+      <a href="{ base }/dictionary">
         <span class="text-secondary">Pro</span>Dictionary
       </a>
     </h1>
@@ -27,7 +28,7 @@
         <hr class="border-secondary">
       {/if}
     </div>
-    <a href="/dictionary" class="text-center text-secondary hover:text-accent transition duration-300">Find more definitions</a>
+    <a href="{ base }/dictionary" class="text-center text-secondary hover:text-accent transition duration-300">Find more definitions</a>
   </div>
 </Container>
 

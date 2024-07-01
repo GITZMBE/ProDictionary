@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
 	import Link from "./Link.svelte";
   import Icon from '@iconify/svelte';
   import { sidebarIsOpen } from '../routes/stores/sidebar';
@@ -18,10 +19,10 @@
     </button>
   </div>
   <nav class="flex flex-col">
-    <Link href="/dictionary/react" content='React' />
-    <Link href="/dictionary/angular" content='Angular' />
-    <Link href="/dictionary/vue" content='Vue' />
-    <Link href="/dictionary/svelte" content='Svelte' />
-    <Link href="/dictionary/react_native" content='React Native' />
+    <Link href="{ base }/dictionary/react" content='React' />
+    <Link href="{ base }/dictionary/angular" content='Angular' />
+    <Link href="{ base }/dictionary/vue" content='Vue' />
+    <Link href="{ base }/dictionary/svelte" content='Svelte' />
+    <Link href="{ base }/dictionary/react_native" content='React Native' />
   </nav>
 </aside>
