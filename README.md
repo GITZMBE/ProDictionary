@@ -31,7 +31,7 @@ To get started with ProDictionary, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ProDictionary.git
+   git clone https://github.com/GITZMBE/ProDictionary.git
    cd ProDictionary
    npm install
    npm run dev

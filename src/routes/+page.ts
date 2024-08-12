@@ -1,7 +1,6 @@
 import { CommonDefinition } from '../models/CommonDefinition.js';
 import { getPartOfSpeech } from '../utils/getPartOfSpeech.js';
 
-
 export const load = async ({ fetch }): Promise<{ data: CommonDefinition[] }> => {
   const res = await fetch('/api/urbandictionary', { 
     method: 'GET' 
